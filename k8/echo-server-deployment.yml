@@ -19,7 +19,9 @@ spec:
     spec:
       containers:
       - name: echo-server
-        image: docker.io/captjohnwickprice/bh-aisec-project1-attp-echo-server@sha256:49f16b8347e1dde92544ad4dc1d90ad7eefa0b8e55aadbe15fa1e1af39f7371a
+        # un-comment one image: for use
+        #image: docker.io/captjohnwickprice/bh-aisec-project1-attp-echo-server@sha256:49f16b8347e1dde92544ad4dc1d90ad7eefa0b8e55aadbe15fa1e1af39f7371a
+        image: docker.io/INVALID/bh-aisec-project1-INVALID-echo-server@sha256:49f16b8347e1dde92544ad4dc1d90ad7eefa0b8e55aadbe15fa1e1af39f7371a
         ports:
         - containerPort: 8081
 ---
