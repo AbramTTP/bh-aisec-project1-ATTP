@@ -24,7 +24,7 @@ spec:
           type: DirectoryOrCreate
       containers:
       - name: echo-server
-        image: docker.io/lmrs2/bh-aisec-project1-echo-server@sha256:6a105421b8ac14f3078f55d1dbf566ee1b261506e3f41920bfc638204645330f
+        image: docker.io/captjohnwickprice/bh-aisec-model-attp-inference@sha256:e13ee85b6a3e4f887fc6f28337f1c63a67796deb18b04484aec6bb25c748fef6
         ports:
         - containerPort: 8081
         volumeMounts:
